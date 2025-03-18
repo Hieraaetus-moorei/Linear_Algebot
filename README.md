@@ -18,13 +18,10 @@ This project create a chatbot with RAG (Retrieval Augmented Generation) ability 
 When customer texts you something, the bot will automatically send a reply based on the knowledge you gave it (i.e. RAG).
 
 ### Demo
-* Client view: 
-![]()
-![]()
-![]()
-* Host view: 
-![]()
-![]()
+You can ask the bot with different language:
+![QA with Linear chatbot](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/demo/chat_demo_host.png)
+If encountering something it doesn't know or sensitive, the bot won't answer directly
+![Privacy protection and hallucination avoidance](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/demo/chat_demo_host0.png)
 
 ### Prerequisite
 * Of couese, Internet
