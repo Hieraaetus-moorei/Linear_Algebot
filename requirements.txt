@@ -1,0 +1,8 @@
+Flask 
+line-bot-sdk
+requests
+transformers
+accelerate
+bitsandbytes
+sentence_transformers
+faiss-cpu
