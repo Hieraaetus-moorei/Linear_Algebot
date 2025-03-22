@@ -43,20 +43,32 @@ e.g.
 #### _You can skip this part if you already have a built-up Line dev account_
 1. Go to [Line developer website](https://developers.line.biz/en/)
 2. Click `Login to console` and choose your way to login (or create an account, which will need a phone number)
+![Line home page](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/home_page.png)
+![Line login page](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/login.png)
 3. Click `create provider`, then `create a new channel`, choosing `Messaging API`
+![create provider](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_provider.png)
+![create a new channel](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/create_channel.png)
+![Choosing message API](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/choose_msg_api.png)
 4. Filling up the required fields ~~with fake info~~
 5. Open the channel manager or go back to the dashboard and click the `provider > the channel you built` after done
+![Choose the provider you just created](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_provider.png)
+![Then choose the channel](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_channel.png)
 6. scroll down and copy your channel secret, pasting it into `config.py` (YOUR_CHANNEL_SECRET part)
+![issuing or copying your channel secret](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/channel_secret.png)
 7. Click Messaging API
     * You can add your bot as a friend via ID or scanning the qr-code
+    ![click msg API](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_messaging_API.png)
+    ![friend up with your bot](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/add_your_bot.png)
     * scrolling down, enable the webhook usage
     _When an event takes place (e.g. customer texts you), Line will send a request to webhook url, i.e. your bot_
+    ![click 'use webhook' button](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/enable_webhook.png)
     * Don't worry about the `Webhook URL` since we'll cope with it later
 8. scroll down further to issue\/reissue a `Channel access token`, then copy-paste it into `config.py` (YOUR_CHANNEL_ACCESS_TOKEN part)
+![issue and get your channel access token](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/issue_channel_token.png)
 #### Note: don't let others know your channel secret and access token
 
 ### Jupyter solution
-Just follow the instructions in [this notebook]()
+Just follow the instructions in [this notebook](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/chatbot.ipynb)
 
 ### Shell solution
 We'll use python Flask as our backend framework.  
@@ -65,10 +77,9 @@ The free and open source solutions in this project are:
 * localtunnel (lt)
 * Tunnelmole (tmole)
 
-#=========== update the repo dir ===========#
 #### Clone the repository  
 ```bash
-git clone 
+git clone https://codeberg.org/Codeglacier/Linear_Algebot.git
 
 cd linear_algebot
 ```
@@ -136,7 +147,7 @@ pkill -f 'tmole 1989'
 ```
 
 Reference:
-* [楊德倫 messaging Linebot repo](https://github.com/telunyang/python_linebot_messaging_api) (無 LLM)
+* [楊德倫 messaging Linebot repo](https://github.com/telunyang/python_linebot_messaging_api) (No LLM included)
 * [Tunnelmole](https://tunnelmole.com/docs/)
 * [localtunnel](https://github.com/localtunnel/localtunnel)
 
