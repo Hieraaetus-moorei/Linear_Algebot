@@ -146,7 +146,7 @@ pkill -f 'tmole 1989'
 # pkill -f 'lt --port 1989' # localtunnel version
 ```
 
-Reference:
+Credits:
 * [楊德倫 messaging Linebot repo](https://github.com/telunyang/python_linebot_messaging_api) (No LLM included)
 * [Tunnelmole](https://tunnelmole.com/docs/)
 * [localtunnel](https://github.com/localtunnel/localtunnel)
