@@ -7,7 +7,7 @@ _LLM Line chatbot with RAG_
 * Prerequisite
 * Set up a Line Developer account
 
-#=================== Add a bot-human chatting GIF =====================#
+![Human-bot chatting gif](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/Linear%20algebot.gif)
 
 ### What does this project do?
 #### building up a Line chatbot with RAG ability in Jupyter Notebook environment (e.g. Google Colaboratory) 
