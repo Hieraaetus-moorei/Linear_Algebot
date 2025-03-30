@@ -10,7 +10,7 @@ _LLM Line chatbot with RAG_
 ![Human-bot chatting gif](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/Linear%20algebot.gif)
 
 ### What does this project do?
-#### building up a Line chatbot with RAG ability in Jupyter Notebook environment (e.g. Google Colaboratory) 
+#### building up a Line chatbot with RAG ability in terminal or Jupyter Notebook environment (e.g. Google Colaboratory) 
 
 Want to automate your customer service with [Line](https://www.line.me/en/)?  
 This project create a chatbot with RAG (Retrieval Augmented Generation) ability and hook it to [LINE](https://www.line.me/en/), a pupolar text app across Asia.
