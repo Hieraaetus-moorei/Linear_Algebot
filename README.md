@@ -1,4 +1,4 @@
-# Linear Algebot
+# Linear Algebot \| [中文版](https://codeberg.org/Codeglacier/Linear_Algebot/src/branch/main/README-zh.md)
 _LLM Line chatbot with RAG_
 
 ### Category
