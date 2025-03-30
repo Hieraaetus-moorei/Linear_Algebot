@@ -50,7 +50,7 @@ _Jupyter Notebook 是一個開源的多語言程式開發介面_
 ![建立提供者](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_provider.png)
 ![建立新頻道](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/create_channel.png)
 ![選擇訊息 API](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/choose_msg_api.png)
-4. 填寫所需的欄位 ~~使用假資訊~~
+4. ~~用假資料~~填寫必要欄位
 5. 打開頻道管理員或返回儀表板，然後點擊 `provider > 您建立的頻道`
 ![選擇您剛建立的提供者](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_provider.png)
 ![然後選擇頻道](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/line_account/click_channel.png)
@@ -69,23 +69,23 @@ _Jupyter Notebook 是一個開源的多語言程式開發介面_
 #### 注意：別讓他人知道密鑰和存取令牌
 
 ### Jupyter 解決方案
-只需按照 [這個筆記本](hhttps://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/chatbot_zh.ipynb) 說明進行操作
+按照 [此筆記本](https://codeberg.org/Codeglacier/Linear_Algebot/raw/branch/main/chatbot_zh.ipynb) 步驟操作即可
 
 ### Shell 解決方案
 用 Python Flask 當後端框架  
 然而，它預設會架起 `HTTP` 服務，但我們想開的是 `HTTPS` 服務  
-本專案中的免費和開源解決方案是：
+本專案用的免費、開源解決方案是：
 * localtunnel (lt)
 * Tunnelmole (tmole)
 
-#### 複製儲存庫
+#### 複製專案
 ```bash
 git clone https://codeberg.org/Codeglacier/Linear_Algebot.git
 
 cd linear_algebot
 ```
 
-這個終端將作為聊天機器人服務的後端  
+現在的終端，將作為聊天機器人的後端  
 聊天機器人的程式邏輯在 `app.py` 中
 
 #### 安裝依賴項
@@ -120,7 +120,7 @@ nohup tmole 1989 &
 在文件中找到與 localhost 目錄對應的 https 網址，並將其複製到 `app.py` 中的 `prefix_url`
 
 #### **重要！**
-複製 URL 並在其末尾加上 `/callback`，然後將整個網址貼到 Line 開發者頁面中的 Webhook URL 欄位
+複製 URL 並在其末尾加上 `/callback`，然後將整個網址貼到 Line 開發者頁面中的 Webhook URL 欄位  
 例如 https://your-prefix-url + /callback = https://your-prefix-url/callback
 
 ---
