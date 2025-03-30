@@ -1,4 +1,4 @@
-# 線性代訴
+# 線性代訴 \| [English version](https://codeberg.org/Codeglacier/Linear_Algebot/src/branch/main/README.md)
 _會 RAG 的 LLM Line 聊天機器人_
 
 ### 類別
